@@ -22,15 +22,15 @@ const Hero = () => {
 
                 <div className={style.links}>
                     <PersonalLink
-                    imgSrc="github.png" 
+                    imgSrc="github.svg" 
                     linkTitle="Download CV"
                     />
                     <PersonalLink 
-                        imgSrc="github.png" 
+                        imgSrc="github.svg" 
                         linkTitle="Github"
                     />
                     <PersonalLink 
-                        imgSrc="github.png" 
+                        imgSrc="github.svg" 
                         linkTitle="sharkmir1@snu.ac.kr"
                     />
                 </div>

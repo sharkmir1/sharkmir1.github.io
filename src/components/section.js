@@ -5,7 +5,7 @@ import style from "./style/section.module.css"
 
 
 const Section = ({sectionTitle, children}) => {
-    console.log(children)
+    // console.log(children)
     return (
         <div className={style.section}>
             <h3>{sectionTitle}</h3>

@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 const PersonalLink = (props) => {
     return (
         <div style={{ marginRight: '22px'}}>
-            <img src={`../images/${props.imgSrc}`} />
+            <img src={`../images/${props.imgSrc}`} style={{ width: '14px' }}/>
             {props.linkTitle}
         </div>
         

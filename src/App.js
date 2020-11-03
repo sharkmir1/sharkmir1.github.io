@@ -10,7 +10,7 @@ import researchData from './_data/research.json'
 import publicationsData from './_data/publications.json'
 
 function Lister(SectionData) {
-  console.log("SECTIONDATA: ", SectionData)
+  // console.log("SECTIONDATA: ", SectionData)
   const Content = SectionData.map( (data) => {
     return (
       <DefaultSectionItem 

@@ -1,6 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
+import imgpath from '../images/tgap.png'
+
 
 // "id":1, 
 // "school": "Seoul National University (SNU)",
@@ -11,9 +13,11 @@ import {Link} from 'react-router-dom';
 
 // const images = require.context('../images', true);
 const PublicationsSectionItem = (props) => {
+    console.log("imgpath: ", imgpath)
+    console.log("imgsrc: ", require(`../images/${props.imgSrc}`).default)
     return (
         <div>
-            {/* <img src={require(`${props.imgSrc}`)} style={{ width: '35px'}}/> */}
+            <img src={require(`../images/${props.imgSrc}`).default} style={{ width: '105px'}}/>
             {/* require("" + props.imgSrc) */}
             <h5>{props.title}</h5>
             <p>{props.authors}</p>
