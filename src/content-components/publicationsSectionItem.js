@@ -13,7 +13,7 @@ import {Link} from 'react-router-dom';
 const PublicationsSectionItem = (props) => {
     return (
         <div>
-            <img src={require(`${props.imgSrc}`)} style={{ width: '35px'}}/>
+            {/* <img src={require(`${props.imgSrc}`)} style={{ width: '35px'}}/> */}
             {/* require("" + props.imgSrc) */}
             <h5>{props.title}</h5>
             <p>{props.authors}</p>
