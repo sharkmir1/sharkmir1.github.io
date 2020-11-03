@@ -1,0 +1,16 @@
+[
+    {
+        "id":1, 
+        "institution": "Seoul National University (SNU)",
+        "timeline": "2014 - 2020  Seoul, Korea",
+        "desc1": "B.Eng. in Computer Science and Engineering",
+        "desc2": "GPA 4.xx/4.3"
+    },
+    {
+        "id":2, 
+        "institution": "Seoul National University (SNU)",
+        "timeline": "2014 - 2020  Seoul, Korea",
+        "desc1": "B.Eng. in Computer Science and Engineering"
+        
+    }
+]

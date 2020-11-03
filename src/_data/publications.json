@@ -1,0 +1,13 @@
+[
+    {
+        "id": 1,
+        "title": "AttnIO: Learning to Walk Across Time for Temporal Knowledge Graph",
+        "authors": "Jaehun Jeong, Bokyung Son, Seongwon Ryu",
+        "description": "You can also add condensed abstract of your paper here. Temporal knowledge grpah sth sthsth.",
+        "conference": "In EMNLP 2020 sth sth sth",
+        "paperLink": "link",
+        "talkLink": "talk",
+        "projectLink": "github page",
+        "imgSrc": "../images/tgap.png"
+    }
+]
