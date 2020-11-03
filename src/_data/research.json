@@ -3,12 +3,12 @@
         "id":1, 
         "institution": "Data Lab, Seoul National University",
         "timeline": "March - September 2020",
-        "desc1": "I have successfully finished my URP with the notorious Prof.U Kang."
+        "desc1": "I have successfully finished my URP with Prof.U Kang."
     },
     {
         "id":2, 
         "institution": "HCI Lab, Seoul National University",
         "timeline": "March - September 2020",
-        "desc1": "I have successfully finished my URP with the notorious Prof.Seo."
+        "desc1": "I have successfully finished my URP with Prof.Seo."
     }
 ]
