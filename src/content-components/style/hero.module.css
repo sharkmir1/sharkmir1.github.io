@@ -28,11 +28,6 @@
   justify-content: flex-start;
 }
 
-.link {
-  margin-right: 22px;
-
-}
-
 .profilePic {
     /* max-width: 230px;
     width: 100%;
@@ -42,10 +37,11 @@
 }
 
 /* for mobile screens */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .heroContainer {
     flex-direction: column; /* change the direction of the container */
     justify-content: center;
+    margin-bottom: 100px;
   }
 
   .links {
@@ -58,6 +54,11 @@
 
     margin-bottom: 21px;
   }
+
+  .links > * {
+    margin-bottom: 4px;
+  }
+  
 
   .profilePic {
     max-width: 220px;

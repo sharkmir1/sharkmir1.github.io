@@ -1,13 +1,27 @@
 [
     {
         "id": 1,
-        "title": "AttnIO: Learning to Walk Across Time for Temporal Knowledge Graph",
-        "authors": "Jaehun Jeong, Bokyung Son, Seongwon Ryu",
-        "description": "You can also add condensed abstract of your paper here. Temporal knowledge grpah sth sthsth.",
-        "conference": "In EMNLP 2020 sth sth sth",
-        "paperLink": "link",
-        "talkLink": "talk",
-        "projectLink": "github page",
+        "title": "***AttnIO: Knowledge Graph Exploration with In-and-Out Attention Flow for Knowledge-Grounded Dialogue***",
+        "authors": "***Jaehun Jung***, Bokyung Son*, Sungwon Lyu*.",
+        "description": "* denotes equal contribution.",
+        "conference": "In Proceedings of 2020 Conference on Empirical Methods for Natural Language Processing ***(EMNLP 2020)***.",
+        "paperLink": "Paper",
+        "talkLink": "Talk",
+        "projectLink": "Project",
+        "imgSrc": "tgap.png"
+    },
+    {
+        "id": 2,
+        "title": "***T-GAP: Learning to Walk across Time for Temporal Knowledge Graph Completion.***",
+        "authors": "***Jaehun Jung***, Jinhong Jung, U Kang.",
+        "conference": "(under review)",
+        "imgSrc": "tgap.png"
+    },
+    {
+        "id": 3,
+        "title": "***DataHalo: Customizable Visualization System to Embody Personal Design Perspectives of Ambience***",
+        "authors": "Guhyun Han, ***Jaehun Jung***, YoungHo Kim, Jinwook Seo.",
+        "conference": "(under review)",
         "imgSrc": "tgap.png"
     }
 ]

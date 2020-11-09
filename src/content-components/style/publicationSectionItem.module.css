@@ -1,0 +1,44 @@
+.sectionItemDiv {
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.title {
+    margin: 0 0 8px 0;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.elem {
+    margin: 0 0 8px 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.thumbnail {
+    width: 105px;
+    border: 1px solid black;
+    align-self: flex-start;
+}
+
+.content {
+    margin-left: 35px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+}
+
+.linksNone {
+    display: none;
+}
+
+.link {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 8px 8px 0;
+}

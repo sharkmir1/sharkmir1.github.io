@@ -1,6 +1,7 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 
+import {formatLabel } from '../util/textParse'
+import styles from './style/defaultSectionItem.module.css'
 
 // "id":1, 
 // "school": "Seoul National University (SNU)",
@@ -11,11 +12,12 @@ import {Link} from 'react-router-dom';
 
 const DefaultSectionItem = (props) => {
     return (
-        <div>
-            <h5>{props.institution}</h5>
-            <p>{props.timeline}</p>
-            <p>{props.desc1}</p>
-            <p>{props.desc2 ? props.desc2 : null}</p>
+        <div className={styles.sectionItemDiv}>
+            <h5 className={styles.title}>{formatLabel(props.institution)}</h5>
+            <p className={styles.timeline}>{formatLabel(props.timeline)}</p> 
+            <p className={styles.elem}>{props.role ? formatLabel(props.role) : null}</p>
+            <p className={styles.elem}>{props.desc1 ? formatLabel(props.desc1) : null}</p>
+            <p className={styles.elem}>{props.desc2 ? formatLabel(props.desc2) : null}</p>
         </div>
         
     )

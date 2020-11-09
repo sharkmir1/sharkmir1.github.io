@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 
 import PersonalLink from '../components/personal-link'
 import profilePic from "../images/profilePic.JPG"
@@ -22,17 +21,20 @@ const Hero = () => {
 
                 <div className={style.links}>
                     <PersonalLink
-                    imgSrc="github.svg" 
+                    imgSrc="download.png" 
                     linkTitle="Download CV"
+                    href="pdf/JaehunJung_CV.pdf"
                     />
                     <PersonalLink 
                         imgSrc="github.svg" 
-                        linkTitle="Github"
+                        linkTitle="/sharkmir1"
+                        href="https://github.com/sharkmir1"
                     />
                     <PersonalLink 
-                        imgSrc="github.svg" 
+                        imgSrc="email.png" 
                         linkTitle="sharkmir1@snu.ac.kr"
                     />
+
                 </div>
             </div>
             <img src={profilePic} className={style.profilePic}/>   

@@ -1,14 +1,18 @@
 [
     {
         "id":1, 
-        "institution": "Data Lab, Seoul National University",
-        "timeline": "March - September 2020",
-        "desc1": "I have successfully finished my URP with Prof.U Kang."
+        "institution": "[[Data Mining Lab](https://datalab.snu.ac.kr/), Seoul National University",
+        "role": "Undergraduate Research Program (URP)",
+        "timeline": "Mar 2020 ~ Jun 2020",
+        "desc1": "Advisor: Prof. U Kang",
+        "desc2": "Proposed a novel temporal reasoning model based on attention propagation and GNN, achieving state-of-the-art results in temporal knowledge graph completion benchmarks."
     },
     {
         "id":2, 
-        "institution": "HCI Lab, Seoul National University",
-        "timeline": "March - September 2020",
-        "desc1": "I have successfully finished my URP with Prof.Seo."
+        "institution": "[[HCI Lab](http://hcil.snu.ac.kr/), Seoul National University",
+        "role": "Research Intern",
+        "timeline": "Mar 2018 ~ Dec 2019",
+        "desc1": "Advisor: Prof. Jinwook Seo",
+        "desc2": "Designed, and Implemented mobile user-context aware application, through customizable information visualization on smartphone notification dataset."
     }
 ]

@@ -1,0 +1,13 @@
+.externalLink {
+    color: #EC0600;
+    text-decoration: none;
+}
+
+.externalLink:hover {
+    text-decoration: underline;
+}
+
+
+.emphasize {
+    font-weight: 600;
+}

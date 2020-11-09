@@ -1,0 +1,23 @@
+.sectionItemDiv {
+    margin-bottom: 35px;
+}
+
+.title {
+    margin: 0 0 7px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.elem {
+    margin: 0 0 7px 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.timeline {
+    color: #6D6F71;
+    margin: 0 0 7px 0;
+    font-size: 14px;
+    font-weight: 400;
+}

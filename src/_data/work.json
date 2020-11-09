@@ -1,0 +1,24 @@
+[
+    {
+        "id":1, 
+        "institution": "[[Kakao Enterprise](https://www.kakaoenterprise.com/), Seoul, Korea",
+        "role": "NLP Researcher",
+        "timeline": "Apr 2020 ~ Present",
+        "desc1": "Developed / Deployed a fast language detection model for Neural Machine Translation.",
+        "desc2" : "Research on hyperbolic VAE for Neural Machine Translation."
+    },
+    {
+        "id":2, 
+        "institution": "[[Kakao AI Lab](https://www.kakaoenterprise.com/), Seoul, Korea",
+        "role": "Research Intern",
+        "timeline": "Jan 2020 ~ Mar 2020",
+        "desc1": "Proposed a new approach toward knowledge graph exploration for knowledgegrounded dialogue system."
+    },
+    {
+        "id": 3, 
+        "institution": "[[SNULife](https://snulife.com/), Seoul National University",
+        "role": "CTO",
+        "timeline": "May 2018 ~ Mar 2019",
+        "desc1": "Developed new services and led maintenance for SNULife.com, an online student community with 170k+ users."
+    }
+]

@@ -2,6 +2,8 @@ hr {
     border: 0;
     border-top: 1px solid #000000;
     border-bottom: 1px solid #fff;
+
+    margin: 5px 0 18px 0;
 }
 
 .section {
@@ -9,6 +11,13 @@ hr {
     width: 83%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 70px;
+}
+
+.sectionTitle {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 700;
 }
 
 /* for mobile screens */

@@ -1,0 +1,13 @@
+.icon {
+    width: 14px;
+    margin-right: 4px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    color: #EC0600;
+}

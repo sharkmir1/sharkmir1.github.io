@@ -1,7 +1,8 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 
+import {formatLabel } from '../util/textParse'
 import imgpath from '../images/tgap.png'
+import styles from './style/publicationSectionItem.module.css'
 
 
 // "id":1, 
@@ -16,16 +17,22 @@ const PublicationsSectionItem = (props) => {
     console.log("imgpath: ", imgpath)
     console.log("imgsrc: ", require(`../images/${props.imgSrc}`).default)
     return (
-        <div>
-            <img src={require(`../images/${props.imgSrc}`).default} style={{ width: '105px'}}/>
+        <div className={styles.sectionItemDiv}>
+            <img className={styles.thumbnail} src={require(`../images/${props.imgSrc}`).default}/>
             {/* require("" + props.imgSrc) */}
-            <h5>{props.title}</h5>
-            <p>{props.authors}</p>
-            <p>{props.description}</p>
-            <p>{props.conference ? props.desc2 : null}</p>
-            <p>{props.paperLink}</p>
-            <p>{props.talkLink}</p>
-            <p>{props.projectLink}</p>
+            <div className={styles.content}>
+                <h5 className={styles.title}>{formatLabel(props.title)}</h5>
+                <p className={styles.elem}>{formatLabel(props.authors)}</p>
+                <p className={styles.elem}>{props.conference ? formatLabel(props.conference) : null}</p>
+
+                <div className={ props.paperLink || props.talkLink || props.projectLink ? styles.links : styles.linksNone}>
+                    <p className={styles.link}>{props.paperLink ? formatLabel(props.paperLink) : null}</p>
+                    <p className={styles.link}>{props.talkLink ? formatLabel(props.talkLink) : null}</p>
+                    <p className={styles.link}>{props.projectLink ? formatLabel(props.projectLink) : null}</p>
+                </div>
+
+                <p className={styles.elem}>{props.description ? formatLabel(props.description) : null}</p>
+            </div>
         </div>
         
     )

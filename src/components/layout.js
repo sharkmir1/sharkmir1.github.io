@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 
 import Header from './header'
 import style from './style/layout.module.css'
