@@ -12,11 +12,11 @@ const Hero = () => {
             <div className={style.intro}>
                 <h1 className={style.title}>JAEHUN JUNG</h1>
                 <h2 className={style.about}>
-                I am an undergraduate student at Seoul National University (SNU). 
-                I have fortunately been advised by Prof. Kang and Prof. Seo. 
-                My research focuses on Natural Language Processing and Machine Learning. 
-                I am currently interested in how to leverage external knowledge to benefit 
-                machine learning models, especially in low-resource scenarios.
+                I am an undergraduate in Computer Science at Seoul National University (SNU). 
+                I am fortunate to be advised by Prof. U Kang, and Prof. Jinwook Seo. 
+                My research interests lies in Information Extraction / Retrieval and Natural Language Processing. 
+                I am currently interested in extracting structured knowledge from language, 
+                and leveraging the knowledge for text generation.
                 </h2>
 
                 <div className={style.links}>

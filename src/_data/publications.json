@@ -2,26 +2,25 @@
     {
         "id": 1,
         "title": "***AttnIO: Knowledge Graph Exploration with In-and-Out Attention Flow for Knowledge-Grounded Dialogue***",
-        "authors": "***Jaehun Jung***, Bokyung Son*, Sungwon Lyu*.",
-        "description": "* denotes equal contribution.",
+        "authors": "***Jaehun Jung***, Bokyung Son*, Sungwon Lyu*",
         "conference": "In Proceedings of 2020 Conference on Empirical Methods for Natural Language Processing ***(EMNLP 2020)***.",
-        "paperLink": "Paper",
-        "talkLink": "Talk",
-        "projectLink": "Project",
-        "imgSrc": "tgap.png"
+        "paperLink": "[[[Paper]](https://www.aclweb.org/anthology/2020.emnlp-main.280/)",
+        "talkLink": "[[[Talk]](https://slideslive.com/38938773)",
+        "imgSrc": "AttnIO.png",
+        "description": "(* denotes equal contribution)"
     },
     {
         "id": 2,
         "title": "***T-GAP: Learning to Walk across Time for Temporal Knowledge Graph Completion.***",
-        "authors": "***Jaehun Jung***, Jinhong Jung, U Kang.",
-        "conference": "(under review)",
-        "imgSrc": "tgap.png"
+        "authors": "***Jaehun Jung***, Jinhong Jung, U Kang",
+        "conference": "(under review for AAAI 2021)",
+        "imgSrc": "T-GAP.png"
     },
     {
         "id": 3,
         "title": "***DataHalo: Customizable Visualization System to Embody Personal Design Perspectives of Ambience***",
-        "authors": "Guhyun Han, ***Jaehun Jung***, YoungHo Kim, Jinwook Seo.",
-        "conference": "(under review)",
-        "imgSrc": "tgap.png"
+        "authors": "Guhyun Han, ***Jaehun Jung***, YoungHo Kim, Jinwook Seo",
+        "conference": "(under review for CHI 2021)",
+        "imgSrc": "DataHalo.png"
     }
 ]

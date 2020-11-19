@@ -18,14 +18,43 @@
     font-weight: 400;
 }
 
+.authorshipDiv {
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    margin: 0 0 8px 0;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
 .thumbnail {
-    width: 105px;
+    width: 115px;
+    height: 115px;
+    /* overflow:hidden;  */
+    object-fit: cover;
     border: 1px solid black;
     align-self: flex-start;
+    margin-bottom: 4px;
 }
 
 .content {
-    margin-left: 35px;
+    margin-left: 20px;
+}
+
+.conferenceDiv {
+    display: flex;
+
+}
+
+.conference {
+    margin: 0 0 8px 0;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
 }
 
 .links {
@@ -40,5 +69,5 @@
 .link {
     font-size: 14px;
     font-weight: 400;
-    margin: 0 8px 8px 0;
+    margin: 0 6px 0px 0;
 }
