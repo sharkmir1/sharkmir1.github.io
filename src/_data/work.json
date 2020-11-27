@@ -5,14 +5,14 @@
         "role": "NLP Researcher",
         "timeline": "Apr 2020 ~ Present",
         "desc1": "Developed / Deployed a fast language detection model for Neural Machine Translation.",
-        "desc2" : "Research on hyperbolic VAE for Neural Machine Translation."
+        "desc2" : "Research on domain-specific NMT for patent data."
     },
     {
         "id":2, 
         "institution": "[[Kakao AI Lab](https://www.kakaoenterprise.com/), Seoul, Korea",
         "role": "Research Intern",
         "timeline": "Jan 2020 ~ Mar 2020",
-        "desc1": "Proposed a new approach toward knowledge graph exploration for knowledge-grounded dialogue system."
+        "desc1": "Proposed a new approach to knowledge graph exploration for knowledge-grounded dialogue system."
     },
     {
         "id": 3, 

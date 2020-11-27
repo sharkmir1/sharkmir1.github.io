@@ -13,6 +13,6 @@
         "role": "Research Intern",
         "timeline": "Mar 2018 ~ Dec 2019",
         "desc1": "Advisor: Prof. Jinwook Seo",
-        "desc2": "Designed, and Implemented mobile user-context aware application, through customizable information visualization on smartphone notification dataset."
+        "desc2": "Designed, and implemented user-context aware notification system that outputs personalized summary of  smartphone notifications."
     }
 ]
