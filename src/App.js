@@ -44,6 +44,7 @@ const Publications = publicationsData.map( (data) => {
       authors={data.authors}
       description={data.description}
       conference={data.conference}
+      pdfLink={data.pdfLink}
       paperLink={data.paperLink}
       talkLink={data.talkLink}
       projectLink={data.projectLink}

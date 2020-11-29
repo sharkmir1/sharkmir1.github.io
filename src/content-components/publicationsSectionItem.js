@@ -16,6 +16,7 @@ import styles from './style/publicationSectionItem.module.css'
 const PublicationsSectionItem = (props) => {
     // console.log("imgpath: ", imgpath)
     // console.log("imgsrc: ", require(`../images/${props.imgSrc}`).default)
+  console.log("jpublicationsSectionItem.props: ", props.pdfLink)
     return (
         <div className={styles.sectionItemDiv}>
             {/* <div> */}
@@ -33,7 +34,8 @@ const PublicationsSectionItem = (props) => {
                 </div>
                 {/* <div className={styles.conferenceDiv}> */}
                     <p className={styles.conference}>{props.conference ? formatLabel(props.conference) : null}</p>
-                    <div className={ props.paperLink || props.talkLink || props.projectLink ? styles.links : styles.linksNone}>
+                    <div className={ props.pdfLink || props.paperLink || props.talkLink || props.projectLink ? styles.links : styles.linksNone}>
+                        <p className={styles.link}>{props.pdfLink ? formatLabel(props.pdfLink) : null}</p>
                         <p className={styles.link}>{props.paperLink ? formatLabel(props.paperLink) : null}</p>
                         <p className={styles.link}>{props.talkLink ? formatLabel(props.talkLink) : null}</p>
                         <p className={styles.link}>{props.projectLink ? formatLabel(props.projectLink) : null}</p>
