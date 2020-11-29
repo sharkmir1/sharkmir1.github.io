@@ -4,7 +4,7 @@
         "title": "***AttnIO: Knowledge Graph Exploration with In-and-Out Attention Flow for Knowledge-Grounded Dialogue***",
         "authors": "***Jaehun Jung***, Bokyung Son*, Sungwon Lyu*",
         "conference": "In Proceedings of 2020 Conference on Empirical Methods for Natural Language Processing ***(EMNLP 2020)***.",
-        "pdfLink": "[[[Pdf]](pdf/AttnIO.pdf/)",
+        "pdfLink": "[[[PDF]](pdf/AttnIO.pdf/)",
         "paperLink": "[[[Link]](https://www.aclweb.org/anthology/2020.emnlp-main.280/)",
         "talkLink": "[[[Talk]](https://slideslive.com/38938773)",
         "imgSrc": "AttnIO.png",
@@ -15,7 +15,7 @@
         "title": "***T-GAP: Learning to Walk across Time for Temporal Knowledge Graph Completion.***",
         "authors": "***Jaehun Jung***, Jinhong Jung, U Kang",
         "conference": "(under review for AAAI 2021)",
-        "pdfLink": "[[[Pdf]](pdf/T-GAP.pdf/)",
+        "pdfLink": "[[[PDF]](pdf/T-GAP.pdf/)",
         "imgSrc": "T-GAP.png"
     },
     {
