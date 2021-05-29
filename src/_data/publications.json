@@ -1,28 +1,29 @@
 [
     {
         "id": 1,
+        "title": "***T-GAP: Learning to Walk across Time for Temporal Knowledge Graph Completion.***",
+        "authors": "***Jaehun Jung***, Jinhong Jung, U Kang",
+        "conference": "The 27th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining ***(KDD 2021)***.",
+        "pdfLink": "[[[PDF]](pdf/T-GAP.pdf/)",
+        "imgSrc": "T-GAP.png"
+    },
+    {
+        "id": 2,
         "title": "***AttnIO: Knowledge Graph Exploration with In-and-Out Attention Flow for Knowledge-Grounded Dialogue***",
         "authors": "***Jaehun Jung***, Bokyung Son*, Sungwon Lyu*",
-        "conference": "In Proceedings of 2020 Conference on Empirical Methods for Natural Language Processing ***(EMNLP 2020)***.",
+        "conference": "The 2020 Conference on Empirical Methods for Natural Language Processing ***(EMNLP 2020)***.",
         "pdfLink": "[[[PDF]](pdf/AttnIO.pdf/)",
         "paperLink": "[[[Link]](https://www.aclweb.org/anthology/2020.emnlp-main.280/)",
         "talkLink": "[[[Talk]](https://slideslive.com/38938773)",
         "imgSrc": "AttnIO.png",
         "description": "(* denotes equal contribution)"
     },
-    {
-        "id": 2,
-        "title": "***T-GAP: Learning to Walk across Time for Temporal Knowledge Graph Completion.***",
-        "authors": "***Jaehun Jung***, Jinhong Jung, U Kang",
-        "conference": "(under review for IJCAI 2021)",
-        "pdfLink": "[[[PDF]](pdf/T-GAP.pdf/)",
-        "imgSrc": "T-GAP.png"
-    },
+
     {
         "id": 3,
         "title": "***DataHalo: Customizable Visualization System to Embody Personal Design Perspectives of Ambience***",
         "authors": "Guhyun Han, ***Jaehun Jung***, YoungHo Kim, Jinwook Seo",
-        "conference": "(under review for CHI 2021)",
+        "conference": "(work in progress)",
         "imgSrc": "DataHalo.png"
     }
 ]

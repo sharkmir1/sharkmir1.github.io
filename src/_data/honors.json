@@ -1,12 +1,17 @@
 [
     {
-        "id": 1, 
+        "id": 1,
+        "institution": "***Outstanding Thesis Award***, Seoul National University",
+        "timeline": "2021"
+    },
+    {
+        "id": 2,
         "institution": "***National Scholarship for Science and Engineering***",
         "timeline": "2018 ~ 2020",
         "desc1": "Merit-based full stipend scholarship by KOSAF (Korean Student Aid Foundation)"
     },
     {
-        "id":2, 
+        "id":3,
         "institution": "***Academic Excellence Scholarship***, Seoul National University",
         "timeline": "2014, 2015, 2017",
         "desc1": "Merit-based undergraduate scholarship."
