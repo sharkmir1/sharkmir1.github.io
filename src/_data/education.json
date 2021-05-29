@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "institution": "***University of Washington***, Seattle, WA",
+        "institution": "***University of Washington***, Seattle, Washington",
         "role": "Ph.D student in Computer Science and Engineering",
         "timeline": "Sep 2021 ~ Present"
     },
@@ -10,6 +10,6 @@
         "institution": "***Seoul National University***, Seoul, Korea, Republic of",
         "role": "B.S. in Computer Science and Engineering",
         "timeline": "Mar 2014 ~ Feb 2021",
-        "desc1": "Overall GPA: 4.24 / 4.3 (Major: 4.21 / 4.3)"
+        "desc1": "Overall GPA: 4.24 / 4.3 (Major: 4.21 / 4.3), 1st in College of Engineering"
     }
 ]
